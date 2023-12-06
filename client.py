@@ -60,9 +60,9 @@ def main():
                         
             # Atualiza o estado atual
             estado = novo_estado
-        
-        # Atualiza a tabela Q
-        np.savetxt('resultado.txt', Q)
+            
+            # Atualiza a tabela Q
+            np.savetxt('resultado.txt', Q)
     else:
         print("Falha na conexão")
 main()
