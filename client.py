@@ -12,8 +12,7 @@ def main():
         
         print("Conectado com sucesso")
         
-        # Comentei esse trecho abaixo para decidir se ele vai gerar uma tabela Q nova ou se vai carregar uma tabela Q já existente
-        # # Carrega a tabela Q
+        # Carrega a tabela Q
         try:
             Q = np.loadtxt('resultado.txt')
         except:
